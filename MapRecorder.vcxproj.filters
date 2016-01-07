@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="MemoryHacking">
+      <UniqueIdentifier>{a333c14e-4f9f-4a41-be82-e621ca067837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryHacking\MAlloc">
+      <UniqueIdentifier>{556c79ee-6d48-4510-b81b-9b5c118e84b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryHacking\Patch">
+      <UniqueIdentifier>{c49ff294-42ff-4155-b342-3d80019a5b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryHacking\Hook">
+      <UniqueIdentifier>{1cf17669-1775-4ed8-856c-8e8716b15087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryHacking\MProt">
+      <UniqueIdentifier>{5aeff7a7-a972-431c-8915-a0b36da2860d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCheat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHackingFactory.cpp">
+      <Filter>MemoryHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="CMAlloc.cpp">
+      <Filter>MemoryHacking\MAlloc</Filter>
+    </ClCompile>
+    <ClCompile Include="CPatch.cpp">
+      <Filter>MemoryHacking\Patch</Filter>
+    </ClCompile>
+    <ClCompile Include="CHook.cpp">
+      <Filter>MemoryHacking\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="CMProt.cpp">
+      <Filter>MemoryHacking\MProt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCheat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTASA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHackingFactory.h">
+      <Filter>MemoryHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="CMAlloc.h">
+      <Filter>MemoryHacking\MAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="IMAlloc.h">
+      <Filter>MemoryHacking\MAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="CPatch.h">
+      <Filter>MemoryHacking\Patch</Filter>
+    </ClInclude>
+    <ClInclude Include="IPatch.h">
+      <Filter>MemoryHacking\Patch</Filter>
+    </ClInclude>
+    <ClInclude Include="CHook.h">
+      <Filter>MemoryHacking\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="IHook.h">
+      <Filter>MemoryHacking\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="CMProt.h">
+      <Filter>MemoryHacking\MProt</Filter>
+    </ClInclude>
+    <ClInclude Include="IMProt.h">
+      <Filter>MemoryHacking\MProt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
